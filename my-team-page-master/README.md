@@ -9,7 +9,7 @@
 <div align="center">
   <h3>
     <a href="https://minku-singh.github.io/responsive-web-projects/my-team-page-master/">
-      Page Link
+      Live Page Link
     </a>
     <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
       Challenge
@@ -23,5 +23,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [minku-singh](https://{github.com/minku-singh})
-- Twitter [minku_singhh](https://{twitter.com/minku_singhh})
+- GitHub [minku-singh](https://github.com/minku-singh)
+- Twitter [minku_singhh](https://twitter.com/minku_singhh)
