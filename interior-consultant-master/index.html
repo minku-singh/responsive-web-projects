@@ -14,7 +14,8 @@
     <div class="line-1">
       <header> <p>This Interior</p> </header>
       <nav>
-        <ul>
+        <i class="fas fa-bars"></i>
+        <ul>  
           <li><a href="#" class="home">Home</a></li>
           <li><a href="#">Collection</a></li>
           <li><a href="#">About</a></li>
@@ -48,9 +49,23 @@
     </div>
     
     <div class="line-3">
-      <footer>created by <a href="https://{twitter.com/minku_singhh}">minku-singh </a> - devChallenges.io</footer>
+      <footer>created by <a href="https://twitter.com/minku_singhh">minku-singh </a> - devChallenges.io</footer>
     </div>
   
   </div>
+
+  <script>
+    let icon = document.querySelector("i.fas.fa-bars");
+    let ul = document.querySelector("ul");
+    let toggle = () => {
+      if(ul.style.display == "none"){
+        ul.style.display = "block";
+      }else{
+        ul.style.display = "none";
+      }
+    }
+    icon.addEventListener("click", toggle);
+  </script>
+
 </body>
 </html>
