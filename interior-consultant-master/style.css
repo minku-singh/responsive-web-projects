@@ -133,7 +133,7 @@ li > .home {
         margin: 2vh 6vw;
     }
     .article-2 > img {
-        width: 80vw;
+        width: 85vw;
     }
     .line-2 > section {
         display: flex;
@@ -153,4 +153,7 @@ li > .home {
         left: 15vw;
     }
 
+    nav {
+        display: none;
+    }
 }
