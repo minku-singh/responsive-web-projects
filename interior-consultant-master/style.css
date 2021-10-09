@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #181719;
+    color: white;
+}
+
+.container {
+    margin: 7vh 10vw 0vh 10vw;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li > .home {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.line-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.line-1 > header {
+    width: 50vw;
+}
+.line-1 > header > p {
+    display: inline;
+    padding: 10px;
+    border: 2px solid white;
+}
+.line-1 > nav {
+    width: 50vw;
+}
+.line-1 > nav > ul {
+    display: flex;
+    justify-content: space-between;
+}
+.line-1 > nav > ul > li {
+    list-style: none;
+}
+
+/*-------------------------------------------------------*/
+.line-2 {
+    margin: 15vh 0;
+}
+.line-2 > section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.line-2 > section > .article-1 {
+    width: 40vw;
+}
+.article-1 > h1 {
+    margin: 2vh 0;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.p1{
+    font-weight: 400;
+    font-size: 1.5rem;
+    width: 24vw;
+}
+.p2{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.article-2 {
+    position: relative;
+}
+.article-2 > img {
+    width: 40vw;
+}
+.article-2 > .card {
+    font-size: 0.75rem;
+    width: 20vw;
+    position: absolute;
+    top: 58vh;
+    left: 18vw;
+    background: #181719;
+    padding: 2vh;
+    box-shadow: 0 5px 5px rgb(0, 0, 0);
+}
+.card-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.article-2 > .card > .head > img {
+    height:60px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.article-2 > .card > .head{
+    display: flex;
+}
+
+/*--------------------------------------------------------*/
+.line-3 {
+    text-align: center;
+    color: #a9a9a9;
+    font-weight: 500;
+    margin-bottom: 2vh;
+}
+
+@media screen and (max-width : 750px) {
+    * {
+        font-size: 0.75rem;
+    }
+    .line-2 > section > .article-1 {
+        width: 100vw;
+    }
+    .p1{
+        width: 80vw;
+        margin: 0 10vw;
+    }
+    .p2 {
+        width: 80vw;
+        margin: 3vh 10vw;
+    }
+    .article-1 > .h1 {
+        width: 80vw;
+        margin: 2vh 10vw;
+    }
+    .article-2 > img {
+        width: 80vw;
+    }
+    .line-2 > section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .article-2 > .card > .head > img {
+        height:40px;
+        border-radius: 50%;
+        margin-bottom: 5px;
+    }
+    .article-2 > .card {
+        width: 60vw;
+        position: absolute;
+        top: 25vh;
+        left: 15vw;
+    }
+
+}
