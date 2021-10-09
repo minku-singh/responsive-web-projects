@@ -9,7 +9,7 @@
 <div align="center">
   <h3>
     <a href="https://minku-singh.github.io/responsive-web-projects/404-not-found-master/">
-      Solution
+      Live Page Link
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
@@ -33,5 +33,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [minku-singh](https://{github.com/minku-singh})
-- Twitter [minku_singhh](https://{twitter.com/minku_singhh})
+- GitHub [minku-singh](https://github.com/minku-singh)
+- Twitter [minku_singhh](https://twitter.com/minku_singhh)
