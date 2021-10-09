@@ -8,8 +8,8 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
+    <a href="https://minku-singh.github.io/responsive-web-projects/interior-consultant-master/">
+      Live Page
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
