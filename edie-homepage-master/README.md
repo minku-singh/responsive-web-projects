@@ -33,4 +33,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - GitHub [minku-singh](https://github.com/minku-singh)
-- Twitter [@your-twitter](https://twitter.com/minku_singhh)
+- Twitter [minku_singhh](https://twitter.com/minku_singhh)
