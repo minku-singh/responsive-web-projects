@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./style.css">
+  <title>Edie Homepage</title>
+</head>
+
+<body>
+  <header>
+    <h1>Edie</h1>
+    <nav>
+      <i class="fas fa-bars"></i>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Our Works</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Image with overview-->
+  <section class="overview">
+    <div class="overview-1">
+      <p>Unhappy with your website?</p>
+      <h2>We create beautiful and fast web services</h2>
+    </div>
+    <img src="./heroImage.jpg" alt="meeting">
+    <div class="overview-2">
+      <h2>Story, emotion and purpose</h2>
+      <p>We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+      <p class="small-p">Want us to contact you?</p>
+      <label for="email"></label>
+      <input type="email" name="email" placeholder="email..">
+      <span><button>Join</button></span>
+    </div>
+  </section>
+
+  <!--services-->
+  <section class="section-2">
+    <h2>We offer high demand services </h2>
+    <div class="services">
+
+      <!--UI/UX-->
+      <div class="each-service">
+        <i class="fas fa-pen-square"></i>
+        <h3>UI/UX Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+        <button>Get Started</button>
+      </div>
+
+      <!--Front end-->
+      <div class="each-service">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Front End</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+        <button>Get Started</button>
+      </div>
+
+      <!--Back end-->
+      <div class="each-service">
+        <i class="fas fa-server"></i>
+        <h3>Back End</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+        <button>Get Started</button>
+      </div>
+    </div>
+  </section>
+
+  <!--image gallery-->
+  <h2 class="img-gallery-h2">Good design means good business</h2>
+  <section class="img-gallery">
+    <div class="img1 each-img">
+      <img src="./smarthome.jpg" alt="">
+      <p>Full Stack Application</p>
+      <h3>Smart home dashboard</h3>
+    </div>
+    <div class="img2 each-img">
+      <img src="./onboard.png" alt="">
+      <p>UI/UX design</p>
+      <h3>Onboard Application</h3>
+    </div>
+    <div class="img3 each-img">
+      <img src="./booking.png" alt="">
+      <p>Mobile Application</p>
+      <h3>Booking System</h3>
+    </div>
+    <div class="img4 each-img">
+      <img src="./juice-product.png" alt="">
+      <p>Front End Application</p>
+      <h3>Juice Product Homepage</h3>
+    </div>
+  </section>
+  <p class="lawaris"><a href="#">see more <i class="fas fa-long-arrow-alt-right"></i></a></p>
+
+  <!--team-->
+  <section class="team">
+    <div class="info">
+      <p class="p1">Meet the team</p>
+      <h2>We are chilled and a laidback team</h2>
+      <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="img">
+      <img src="./person1.png" alt="">
+      <img src="./person2.png" alt="">
+      <img src="./person3.png" alt="">
+    </div>
+  </section>
+
+  <!--review-->
+  <section class="review">
+    <h2>“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”    </h2>
+    <div class="reviewer">
+      <div class="img">
+        <img src="./person4.png" alt="">
+      </div>
+      <div class="info">
+        <h2>Carlos Tran</h2>
+        <p>The Decorate Gatsby</p>
+      </div>
+    </div>
+  </section>
+</body>
+
+<footer>
+  <div class="container">
+    <div class="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Our Works</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="edie">
+      <h2>Edie</h2>
+      <img src="./instagram.svg" alt="">
+      <img src="./linkedin.svg" alt="">
+      <img src="./twitter.svg" alt="">
+    </div>
+    <div class="email">
+      <p>Want us to contact you?</p>
+      <input type="email" placeholder="email.." name="email"><span><button>Join</button></span>
+    </div>
+  </div>
+  <p>Created by <a href="https://twitter.com/minku_singhh">Minku Singh</a> - devChallenges.io</p>
+</footer>
+
+<script>
+  let bars = document.querySelector("i.fas.fa-bars");
+  let ul = document.querySelector("ul");
+  let toggle = () => {
+    if(ul.style.display == "block"){
+      ul.style.display = "none";
+    }else{
+      ul.style.display = "block";
+    }
+  }
+  bars.addEventListener("click", toggle);
+  
+</script>
+</html>
