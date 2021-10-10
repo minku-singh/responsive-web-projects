@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 4vh 14vw;
+}
+
+h2{
+    margin-bottom: 2vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.location{
+    width: 50vw;
+}
+
+.contact-info{
+    margin: 5vh 0;
+}
+
+input{
+    height: 20px;
+    width: 20vw;
+    padding: 5px;
+    margin-bottom: 2vh;
+}
+
+.product{
+    background: rgb(241, 241, 241);
+    height: 60vh;
+    border-radius: 10px;
+}
+
+.prod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh;
+    
+}
+
+.product span{
+    background: gray;
+    padding: 0.5vh;
+}
+.prod p {
+    margin-top: 8px;
+    color: orange;
+    font-weight: 700;
+}
+
+#check-box{
+    position: relative;
+    left: 1vw;
+}
+
+.bott{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+}
+.bott > p{
+    padding: 1.5vh;
+}
+
+img{
+    width: 7vw;
+    border-radius: 10px;
+    margin-right: 2vw;
+}
+
+button{
+    cursor: pointer;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    padding: 2vh;
+    background: orange;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    color: rgb(146, 146, 146);
+    font-size: 0.85rem;
+    margin: 20vh 0 3vh 0;
+}
+
+@media screen and (max-width : 768px){
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 10vw;
+        justify-content: center;
+    }
+    .location{
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+    input{
+        width: 60vw;
+    }
+    .product{
+        height: 60vh;
+    }
+    .prod{
+        padding: 2vh;
+    }
+}
