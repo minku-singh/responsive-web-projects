@@ -29,6 +29,7 @@ p{
 .person > img {
     width: 10vw; 
     border-radius: 10px;
+    background: #A9A9A9;
 }
 
 span {
@@ -51,6 +52,7 @@ span {
 .grid > img {
     max-width: 100%;
     border-radius: 10px;
+    background: #A9A9A9;
 }
 
 .img1 {
