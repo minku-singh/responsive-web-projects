@@ -6,3 +6,4 @@
 4. [RECIPE PAGE](recipe-page-master/)
 5. [IMAGE GALLERY](my-gallery-master/)
 6. [CHECKOUT PAGE](checkout-page-master/)
+7. [EDIE HOMEPAGE](edie-homepage-master/)
