@@ -40,6 +40,11 @@ header img{
 .certification{
     width: 40vw;
 }
+.certification a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
 .skills .bar p{
     width: 20vw;
     height: 10px;
